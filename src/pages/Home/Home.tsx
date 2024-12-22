@@ -54,7 +54,7 @@ function Home() {
             onChange={(e) => setNewTask(e.target.value)}
           />
 
-          <select onChange={(e) => setNewPriority(e.target.value as "low" | "medium" | "high")} value={newPriority} className="outline-none border p-2 mr-4">
+          <select onChange={(e) => setNewPriority(e.target.value as "low" | "medium" | "high")} value={newPriority} className="outline-none border p-2 mx-4">
             <option value="low">Baixa</option>
             <option value="medium">Média</option>
             <option value="high">Alta</option>
